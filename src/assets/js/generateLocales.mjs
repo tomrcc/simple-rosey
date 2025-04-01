@@ -37,7 +37,7 @@ import path from "path";
         if (!existingLocaleKeys.includes(baseJsonKey)) {
           localeFileData[baseJsonKey] = {
             original: baseJsonData.keys[baseJsonKey].original,
-            value: "",
+            value: baseJsonData.keys[baseJsonKey].original,
           };
         }
       });
