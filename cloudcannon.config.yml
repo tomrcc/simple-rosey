@@ -101,8 +101,6 @@ collections_config:
           numberedlist: true
           outdent: true
           horizontalrule: true
-          image: true
-          table: true
           undo: true
           redo: true
           removeformat: true
@@ -124,8 +122,6 @@ collections_config:
           numberedlist: true
           outdent: true
           horizontalrule: true
-          image: true
-          table: true
           undo: true
           redo: true
           removeformat: true
