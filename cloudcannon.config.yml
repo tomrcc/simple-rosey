@@ -77,6 +77,11 @@ collections_config:
         options:
           values: data.tags
           empty_type: array
+  translations:
+    path: rosey/locales
+    disable_url: true
+    disable_add: false
+    disable_add_folder: true
   data:
     path: data
     disable_add: true

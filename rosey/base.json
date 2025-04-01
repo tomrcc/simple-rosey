@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "keys": {
+    "a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms": {
+      "original": "<p>A starting point for <strong>developers looking to build a website with Astro, using Bookshop components in CloudCannon</strong>. Create your own copy, and start creating your own components to use in the CloudCannon CMS.</p>\n",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "blog": {
+      "original": " Blog ",
+      "value": null,
+      "pages": {
+        "404.html": 2,
+        "blog/5-things-to-improve-you-email-templates/index.html": 2,
+        "blog/all-the-bells-and-whistles/index.html": 2,
+        "blog/best-email-sending-services/index.html": 2,
+        "blog/email-delivery-tips/index.html": 2,
+        "blog/index.html": 2,
+        "index.html": 2,
+        "tags/bells/index.html": 2,
+        "tags/email/index.html": 2,
+        "tags/marketing/index.html": 2,
+        "tags/technology/index.html": 2,
+        "tags/whistles/index.html": 2
+      },
+      "total": 24
+    },
+    "cloudcannon": {
+      "original": " CloudCannon ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/5-things-to-improve-you-email-templates/index.html": 1,
+        "blog/all-the-bells-and-whistles/index.html": 1,
+        "blog/best-email-sending-services/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/index.html": 1,
+        "index.html": 2,
+        "tags/bells/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1,
+        "tags/technology/index.html": 1,
+        "tags/whistles/index.html": 1
+      },
+      "total": 13
+    },
+    "cloudcannon-astro-starter": {
+      "original": " CloudCannon Astro Starter ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "for-a-demo": {
+      "original": " For a demo ",
+      "value": null,
+      "pages": {
+        "blog/5-things-to-improve-you-email-templates/index.html": 1
+      },
+      "total": 1
+    },
+    "github": {
+      "original": " GitHub ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/5-things-to-improve-you-email-templates/index.html": 1,
+        "blog/all-the-bells-and-whistles/index.html": 1,
+        "blog/best-email-sending-services/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/index.html": 1,
+        "index.html": 3,
+        "tags/bells/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1,
+        "tags/technology/index.html": 1,
+        "tags/whistles/index.html": 1
+      },
+      "total": 14
+    },
+    "keep-what-you-need-delete-the-rest": {
+      "original": " Keep what you need. Delete the rest. ",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "mycompany-all-rights-reserved": {
+      "original": " MyCompany. All rights reserved. ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/5-things-to-improve-you-email-templates/index.html": 1,
+        "blog/all-the-bells-and-whistles/index.html": 1,
+        "blog/best-email-sending-services/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/index.html": 1,
+        "index.html": 1,
+        "tags/bells/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1,
+        "tags/technology/index.html": 1,
+        "tags/whistles/index.html": 1
+      },
+      "total": 12
+    },
+    "rss-feed": {
+      "original": " RSS Feed ",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "blog/5-things-to-improve-you-email-templates/index.html": 1,
+        "blog/all-the-bells-and-whistles/index.html": 1,
+        "blog/best-email-sending-services/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/index.html": 1,
+        "index.html": 1,
+        "tags/bells/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1,
+        "tags/technology/index.html": 1,
+        "tags/whistles/index.html": 1
+      },
+      "total": 12
+    },
+    "test-test-test": {
+      "original": " Test test test ",
+      "value": null,
+      "pages": {
+        "blog/all-the-bells-and-whistles/index.html": 1
+      },
+      "total": 1
+    },
+    "this-is-an-alert-message": {
+      "original": " This is an alert message ",
+      "value": null,
+      "pages": {
+        "blog/all-the-bells-and-whistles/index.html": 1
+      },
+      "total": 1
+    },
+    "to-help-save-you-time-some-features-are-set-up-in-this-template-like-bookshop-blog-with-pagination-tags-and-snippets-image-optimization-seo-controls-responsive-header-and-footer-font-awesome-icons-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables": {
+      "original": "<p>To help save you time, some features are set up in this template, like:</p>\n<ul>\n<li><a href=\"https://cloudcannon.com/documentation/guides/bookshop-astro-guide/\">Bookshop</a></li>\n<li>Blog with pagination, tags and <a href=\"https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx\">snippets</a></li>\n<li><a href=\"https://docs.astro.build/en/guides/images/#image--astroassets\">Image optimization</a></li>\n<li>SEO Controls</li>\n<li>Responsive header and footer</li>\n<li><a href=\"https://fontawesome.com/search?o=r&amp;m=free\">Font Awesome Icons</a></li>\n<li>Schemas for adding new pages</li>\n<li>Editable color pallete</li>\n<li>Markdown styles</li>\n<li>CloudCannon configuration</li>\n<li>CSS variables</li>\n</ul>\n",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    }
+  }
+}
