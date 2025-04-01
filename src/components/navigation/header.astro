@@ -1,5 +1,6 @@
 ---
-import { header } from '../../../data/navigation.json';
+import { generateRoseyId } from "src/assets/js/generateRoseyId.mjs";
+import { header } from "../../../data/navigation.json";
 ---
 
 <header
@@ -40,7 +41,10 @@ import { header } from '../../../data/navigation.json';
           header.links.map((link) => {
             return (
               <li class="header__nav-item">
-                <a class="header__nav-link" href={link.link}>
+                <a
+                  class="header__nav-link"
+                  href={link.link}
+                  data-rosey={generateRoseyId(link.text)}>
                   {link.text}
                 </a>
               </li>

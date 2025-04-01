@@ -1,5 +1,6 @@
 ---
-import Icon from '../utility/icon';
+import { generateRoseyId } from "src/assets/js/generateRoseyId.mjs";
+import Icon from "../utility/icon";
 const block = Astro.props;
 ---
 
@@ -9,5 +10,7 @@ const block = Astro.props;
   <div class="w-[1rem]">
     <Icon icon={block.icon} />
   </div>
-  <p class="!mb-0">{block.alert_message}</p>
+  <p class="!mb-0" data-rosey={generateRoseyId(block.alert_message)}>
+    {block.alert_message}
+  </p>
 </div>

@@ -1,4 +1,5 @@
 ---
+import { generateRoseyId } from "src/assets/js/generateRoseyId.mjs";
 import Icon from "../../utility/icon";
 interface Props {
   button_text: string;
@@ -24,7 +25,9 @@ const hover_brightness = block.hover_brightness;
         </span>
       ) : null
     }
-    {block.button_text}
+    <span data-rosey={generateRoseyId(block.button_text)}>
+      {block.button_text}
+    </span>
   </a>
 </button>
 

@@ -1,4 +1,5 @@
 ---
+import { generateRoseyId } from "src/assets/js/generateRoseyId.mjs";
 import { footer } from "../../../data/navigation.json";
 import Icon from "../utility/icon";
 ---
@@ -32,7 +33,9 @@ import Icon from "../utility/icon";
           footer.links.map((link) => {
             return (
               <li>
-                <a href={link.link}>{link.text}</a>
+                <a href={link.link} data-rosey={generateRoseyId(link.text)}>
+                  {link.text}
+                </a>
               </li>
             );
           })
@@ -42,7 +45,9 @@ import Icon from "../utility/icon";
 
     <p class="text-center py-8">
       &#169; {new Date().getFullYear()}
-      {footer.copyright}
+      <span data-rosey={generateRoseyId(footer.copyright)}>
+        {footer.copyright}
+      </span>
     </p>
   </div>
 </footer>
