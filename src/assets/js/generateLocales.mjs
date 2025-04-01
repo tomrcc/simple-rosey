@@ -26,7 +26,6 @@ import path from "path";
   const baseJsonKeys = Object.keys(baseJsonData.keys);
   const existingLocales = Object.keys(localesFilesData);
   const existingLocaleKeys = Object.keys(localesFilesData[existingLocales[0]]);
-  console.log(existingLocaleKeys);
 
   // Loop through each locale and update our data
   await Promise.all(
