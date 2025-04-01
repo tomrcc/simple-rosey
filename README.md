@@ -12,7 +12,6 @@ To start using this template, go to the [GitHub repository](https://github.com/C
 
 Create two sites on CloudCannon from the same repo with a staging -> production publishing workflow.
 
-
 ### With no generation
 1. Tag your html content for translation
 2. Run `npx rosey generate --source dist` manually on your local dev env.

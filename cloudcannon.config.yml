@@ -82,6 +82,11 @@ collections_config:
     disable_url: true
     disable_add: false
     disable_add_folder: true
+    _inputs:
+      original:
+        type: html
+      value:
+        type: html
   data:
     path: data
     disable_add: true
