@@ -12,5 +12,5 @@ then
   echo "Translating site with Rosey"
   # There's a little bit of shuffling around here to ensure the translated site ends up where CloudCannon picks up your site
   mv ./dist ./_untranslated_site
-  npx rosey@latest build --source _untranslated_site --dest dist --default-language-at-root
+  npx rosey@latest build --source _untranslated_site --dest dist
 fi
