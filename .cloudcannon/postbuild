@@ -2,15 +2,13 @@
 
 npx @bookshop/generate
 # Add an env variable of SYNC_PATHS=rosey/locales for this to work on CloudCannon
+echo "Generating locale files for editors to enter translations"
 node src/assets/js/generateLocales.mjs
 
-if [[ $TRANSLATE == "true" ]];
-then
-  echo "Installing Rosey"
-  npm install
+echo "Installing Rosey"
+npm install
 
-  echo "Translating site with Rosey"
-  # There's a little bit of shuffling around here to ensure the translated site ends up where CloudCannon picks up your site
-  mv ./dist ./_untranslated_site
-  npx rosey@latest build --source _untranslated_site --dest dist --default-language-at-root
-fi
+echo "Translating site with Rosey"
+# There's a little bit of shuffling around here to ensure the translated site ends up where CloudCannon picks up your site
+mv ./dist ./_untranslated_site
+npx rosey@latest build --source _untranslated_site --dest dist --default-language-at-root
