@@ -1,5 +1,6 @@
 ---
 const pagePath = Astro.url.pathname || "page";
+const baseUrl = Astro.url.origin;
 ---
 
 <button
@@ -11,9 +12,9 @@ const pagePath = Astro.url.pathname || "page";
 
 <div id="locales-list" popover="auto">
   <div class="locales-list-wrapper">
-    <a href={`/ko-KR${pagePath}`}>Korean</a>
-    <a href={`/no${pagePath}`}>Norwegian</a>
-    <a href={`/${pagePath}`}>English</a>
+    <a href={`${baseUrl}/ko-KR${pagePath}`}>Korean</a>
+    <a href={`${baseUrl}/no${pagePath}`}>Norwegian</a>
+    <a href={`${baseUrl}${pagePath}`}>English</a>
   </div>
 </div>
 
