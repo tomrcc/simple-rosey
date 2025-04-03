@@ -1,6 +1,9 @@
 ---
 import { generateRoseyId } from "src/assets/js/generateRoseyId.mjs";
 import { header } from "../../../data/navigation.json";
+import LangPicker from "./lang-picker.astro";
+const page = Astro.props;
+console.log(page);
 ---
 
 <header
@@ -52,6 +55,7 @@ import { header } from "../../../data/navigation.json";
           })
         }
       </ul>
+      <LangPicker />
     </nav>
   </div>
 </header>

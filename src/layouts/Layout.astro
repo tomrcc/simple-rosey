@@ -32,6 +32,7 @@ const description = seo?.page_description ?? site.description;
 const image = seo?.featured_image ?? site.image;
 const image_alt = seo?.featured_image_alt ?? site.image_alt;
 const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
+// console.log(Astro.props);
 ---
 
 <!doctype html>
